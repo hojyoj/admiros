@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>231</height>
+   </rect>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icon.ico</normaloff>:/icon.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="handleWidth">
+       <number>9</number>
+      </property>
+      <property name="childrenCollapsible">
+       <bool>false</bool>
+      </property>
+      <widget class="QFrame" name="mainFR">
+       <property name="styleSheet">
+        <string notr="true">QFrame#mainFR{background-color:#E8E4D4;}</string>
+       </property>
+       <layout class="QVBoxLayout" name="mainLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="margin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="contentFR">
+          <property name="styleSheet">
+           <string notr="true">#contentFR{background-color:#F8F6F4;}</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_11">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="margin">
+            <number>6</number>
+           </property>
+           <item>
+            <widget class="QFrame" name="headerFR">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:#F8F6F4;</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <property name="margin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="tabsLYFR">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>7</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="margin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <spacer name="verticalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="tabsFR">
+                   <layout class="QHBoxLayout" name="tabsLY">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="margin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QFrame" name="dummyTab">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                        <horstretch>1</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="holderLogoFR">
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>6</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="holderLogoLYFR">
+                   <property name="minimumSize">
+                    <size>
+                     <width>20</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color:#FFFCEC;</string>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::Box</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_12">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="margin">
+                     <number>3</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="holderLogoLA">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="CDPassWidget" name="mainSlider">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>1</verstretch>
+              </sizepolicy>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="footerFR">
+             <property name="styleSheet">
+              <string notr="true">QFrame#frBotones{background-color:rgba(0,0,0,0);}</string>
+             </property>
+             <layout class="QHBoxLayout" name="footerFRLY">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="leftMargin">
+               <number>6</number>
+              </property>
+              <property name="topMargin">
+               <number>6</number>
+              </property>
+              <property name="rightMargin">
+               <number>6</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="contentBUFR">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="margin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QFrame" name="removeFR">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>4</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QFrame#frame_9{background-color:rgba(0,0,0,0);}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="margin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pbEliminar">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{border:1 solid #D0E0C0; border-right:2 solid #B0B0A0; border-bottom:2 solid #B0B0A0; border-top-left-radius:18px; border-top-right-radius:6px; border-bottom-right-radius:6px; border-bottom-left-radius:18px; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FFFCE8, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #C0C0B0); padding:4px;} 
+QPushButton:pressed{border:2 solid #D0E0C0; border-right:1 solid #B0B0A0; border-bottom:1 solid #B0B0A0; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #C0C0B0, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #FFFCE8); padding:4px;}
+QPushButton:disabled{background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #e6e3d1, stop:.20 #dbd4b4, stop:.80 #dbd4b4, stop:1 #adad9f); padding:4px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>&amp;Eliminar</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>:/Cancel.png</normaloff>:/Cancel.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>32</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="spacerFR1">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>1</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>6</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="editFR">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>4</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="margin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pbModificar">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{border:1 solid #D0E0C0; border-right:2 solid #B0B0A0; border-bottom:2 solid #B0B0A0; border-top-left-radius:18px; border-top-right-radius:6px; border-bottom-right-radius:6px; border-bottom-left-radius:18px; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FFFCE8, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #C0C0B0); padding:4px;} 
+QPushButton:pressed{border:2 solid #D0E0C0; border-right:1 solid #B0B0A0; border-bottom:1 solid #B0B0A0; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #C0C0B0, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #FFFCE8); padding:4px;}
+QPushButton:disabled{background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #e6e3d1, stop:.20 #dbd4b4, stop:.80 #dbd4b4, stop:1 #adad9f); padding:4px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>&amp;Modificar</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>:/Redo.png</normaloff>:/Redo.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>32</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="spacerFR2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>1</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>6</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QFrame" name="frame_11">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                     <horstretch>4</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="margin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pbAgregar">
+                      <property name="enabled">
+                       <bool>true</bool>
+                      </property>
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QPushButton{border:2 solid #D0E0C0; border-right:2 solid #B0B0A0; border-bottom:2 solid #B0B0A0; border-top-left-radius:18px; border-top-right-radius:6px; border-bottom-right-radius:6px; border-bottom-left-radius:18px; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FFFCE8, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #C0C0B0); padding:4px;} 
+QPushButton:pressed{border:2 solid #D0E0C0; border-right:1 solid #B0B0A0; border-bottom:1 solid #B0B0A0; background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #C0C0B0, stop:.20 #F4ECC8, stop:.80 #F4ECC8, stop:1 #FFFCE8); padding:4px;}
+QPushButton:disabled{background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #e6e3d1, stop:.20 #dbd4b4, stop:.80 #dbd4b4, stop:1 #adad9f); padding:4px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>&amp;Agregar</string>
+                      </property>
+                      <property name="icon">
+                       <iconset>
+                        <normaloff>:/Plus.png</normaloff>:/Plus.png</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>32</width>
+                        <height>32</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>9</width>
+                  <height>0</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4"/>
+        </item>
+        <item>
+         <widget class="QFrame" name="buttonsFR">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#buttonsFR{background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ECEAE8, stop:.25 #F0EEEC, stop:.7 #F0EEEC, stop:1 #B0B0A0); border-bottom-left-radius:6px; border-bottom-right-radius:6px;}</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="margin">
+            <number>2</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pbSalir">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+             <property name="toolTip">
+              <string>Presione este botón para cerrar el Programa [alt+c]</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border:0; background-color:qradialgradient(cx:.50, cy:.50, fx:.5, fy:.5, radius:.5, stop:0 #B0B0A0, stop:.88 #B0B0A0, stop:.90 rgba(0,0,0,0))}
+
+QPushButton:pressed{border-top:3 solid rgba(0,0,0,0); border-left:3 solid rgba(0,0,0,0); background-color:qradialgradient(cx:.50, cy:.50, fx:.49, fy:.49, radius:.55, stop:0 #B0B0A0, stop:.8 #B0B0A0, stop:1 rgba(0,0,0,0))}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resources.qrc">
+               <normaloff>:/Shotdown.png</normaloff>:/Shotdown.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="spacer1FR">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>1</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:rgba(0,0,0,0);</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbPrint">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="toolTip">
+              <string>Presione este botón para Imprimir la lista que aparece en la consulta [alt+i]</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border:0; background-color:qradialgradient(cx:.50, cy:.50, fx:.5, fy:.5, radius:.5, stop:0 #B0B0A0, stop:.88 #B0B0A0, stop:.90 rgba(0,0,0,0))}
+
+QPushButton:pressed{border-top:3 solid rgba(0,0,0,0); border-left:3 solid rgba(0,0,0,0); background-color:qradialgradient(cx:.50, cy:.50, fx:.49, fy:.49, radius:.55, stop:0 #B0B0A0, stop:.8 #B0B0A0, stop:1 rgba(0,0,0,0))}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/Print.png</normaloff>:/Print.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbHerramientas">
+             <property name="toolTip">
+              <string>Presione este botón para accesar la configuración de algunos parámetros. [alt+h]</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border:0; background-color:qradialgradient(cx:.50, cy:.50, fx:.5, fy:.5, radius:.5, stop:0 #B0B0A0, stop:.88 #B0B0A0, stop:.90 rgba(0,0,0,0))}
+
+QPushButton:pressed{border-top:3 solid rgba(0,0,0,0); border-left:3 solid rgba(0,0,0,0); background-color:qradialgradient(cx:.50, cy:.50, fx:.49, fy:.49, radius:.55, stop:0 #B0B0A0, stop:.8 #B0B0A0, stop:1 rgba(0,0,0,0))}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/Tools.png</normaloff>:/Tools.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pbInfo">
+             <property name="toolTip">
+              <string>Presione este botón para ver la información del Sistema.</string>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border:0; background-color:qradialgradient(cx:.50, cy:.50, fx:.5, fy:.5, radius:.5, stop:0 #B0B0A0, stop:.88 #B0B0A0, stop:.90 rgba(0,0,0,0))}
+
+QPushButton:pressed{border-top:3 solid rgba(0,0,0,0); border-left:3 solid rgba(0,0,0,0); background-color:qradialgradient(cx:.50, cy:.50, fx:.49, fy:.49, radius:.55, stop:0 #B0B0A0, stop:.8 #B0B0A0, stop:1 rgba(0,0,0,0))}</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>:/Info.png</normaloff>:/Info.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>32</width>
+               <height>32</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QFrame" name="spacer2FR">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>5</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:rgba(0,0,0,0);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget">
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Tab 1</string>
+        </attribute>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CDPassWidget</class>
+   <extends>QFrame</extends>
+   <header>cdWidgets.passWidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

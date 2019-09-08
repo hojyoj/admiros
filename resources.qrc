@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="Blank.png">basiq/files/Blank.png</file>
+    <file alias="Restart.png">basiq/files/Restart.png</file>
+    <file alias="CheckMark.png">basiq/files/CheckMark.png</file>
+    <file alias="Cash.png">basiq/files/Cash.png</file>
+    <file alias="Recycle.png">basiq/files/Recycle.png</file>
+    <file alias="Left.png">basiq/files/Left.png</file>
+    <file>splashLogo.png</file>
+    <file alias="Right.png">basiq/files/Right.png</file>
+    <file alias="Minus.png">basiq/files/Minus.png</file>
+    <file alias="Key.png">basiq/files/Key.png</file>
+    <file alias="CheckMark.png">basiq/files/CheckMark.png</file>
+    <file alias="CDlogo.ico">basiq/files/CDlogo.ico</file>
+    <file alias="Close.png">basiq/files/Close.png</file>
+    <file alias="Plus.png">basiq/files/Plus.png</file>
+    <file alias="Redo.png">basiq/files/Redo.png</file>
+    <file alias="Cancel.png">basiq/files/Cancel.png</file>
+    <file alias="Tools.png">basiq/files/Tools.png</file>
+    <file alias="Print.png">basiq/files/Print.png</file>
+    <file>icon.ico</file>
+    <file alias="Shotdown.png">basiq/files/Shotdown.png</file>
+    <file>../basiq/files/Check.png</file>
+    <file>../basiq/files/Down.png</file>
+    <file>../basiq/files/Edit.png</file>
+    <file>../basiq/files/Folder.png</file>
+    <file alias="Info.png">basiq/files/Info.png</file>
+    <file>../basiq/files/Left_2.png</file>
+    <file>systemLogo.png</file>
+    <file>../basiq/files/Redo2.png</file>
+    <file>../basiq/files/Restart_2.png</file>
+    <file>../basiq/files/Trash.png</file>
+  </qresource>
+</RCC>
